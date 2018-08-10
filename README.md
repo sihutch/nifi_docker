@@ -30,6 +30,7 @@ The setup creates the following:
   user1:user1
 
   user2:user2
+
 2. A single Test Bucket in NiFi registry
 3. Configures NiFi to use NiFi registry_config
 4. Gives all users access policies to the root process group
