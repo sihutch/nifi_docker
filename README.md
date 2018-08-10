@@ -24,7 +24,6 @@ You can tail the logs with: `docker-compose logs -f -t`
 The setup performs the following:
 
 * Creates three NiFi users with the following username:passwords
-1. Three users with the following username:passwords
 
   * admin:admin
 
