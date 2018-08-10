@@ -21,20 +21,20 @@ You can tail the logs with: `docker-compose logs -f -t`
 
 ### Usage
 
-The setup creates the following:
+The setup performs the following:
 
-1. Three users with the following username:passwords
+* Creates three NiFi users with the following username:passwords
 
-  admin:admin
+  * admin:admin
 
-  user1:user1
+  * user1:user1
 
-  user2:user2
+  * user2:user2
 
-2. A single Test Bucket in NiFi registry
-3. Configures NiFi to use NiFi registry_config
-4. Gives all users access policies to the root process group
+* Creates a a single 'Test Bucket' in NiFi registry
+* Configures NiFi to use NiFi registry
+* Gives all users access policies to the root process group
 
-Access NiFi at: https://localhost:8443 - The cert is self-signed as you will have to accept it in your browser.
+Access NiFi at: https://localhost:8443 - The cert is self-signed so you will have to accept it in your browser.
 
 Access NiFi registry at: http://localhost:18080 - Registry is not secured.
