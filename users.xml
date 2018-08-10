@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tenants>
+    <groups>
+        <group identifier="23010b3f-0165-1000-0d53-44322600c208" name="NiFi users">
+            <user identifier="22ede7dd-0165-1000-9d41-f8ae1f426166"/>
+            <user identifier="22edc59e-0165-1000-914f-72dcd0bc5455"/>
+        </group>
+    </groups>
+    <users>
+        <user identifier="21232f29-7a57-35a7-8389-4a0e4a801fc3" identity="admin"/>
+        <user identifier="22edc59e-0165-1000-914f-72dcd0bc5455" identity="user1"/>
+        <user identifier="22ede7dd-0165-1000-9d41-f8ae1f426166" identity="user2"/>
+    </users>
+</tenants>
