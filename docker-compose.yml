@@ -1,7 +1,7 @@
 version: '2'
 services:
   nifi:
-    image: nifi
+    image: sihutch76/nifi
     container_name: nifi
     ports:
       - "8443:8443"
